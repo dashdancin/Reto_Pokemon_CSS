@@ -1,0 +1,326 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body { 
+    background: url(slowpoke_AG_anime.png);
+    background-repeat: no-repeat;
+    background-position: center 100px;
+    background-size: 40%;
+}
+
+.base {
+    background-color: transparent;
+    border-radius: 50% 50% / 50% 50%;
+    width: 355px;
+    height: 315px;
+    position: absolute;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    
+    left: 40%;
+    top: 39%;
+}
+
+.head {
+    background-color: transparent;
+    border-radius: 70% 68% 70% 65% / 50% 60% 50% 65%;
+    width: 230px;
+    height: 270px;
+    position: absolute;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    left: 33%;
+    top: 38%;
+}
+
+.tail {
+    background-color: transparent;
+    border-radius: 60% 55%/ 55% 55%;
+    width: 390px;
+    height: 390px;
+    position: absolute;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    left: 38.5%;
+    top: 14%;    
+}
+
+.taildown {
+    background-color: transparent;
+    border-radius: 60% 45%/ 55% 55%;
+    width: 355px;
+    height: 330px;
+    position: absolute;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    left: 35%;
+    top: 20%;    
+}
+
+.eye2 {
+    background-color: transparent;
+    border-radius: 50%/ 50%;
+    width: 70px;
+    height: 66px;
+    position: absolute;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    left: 41%;
+    top: 45%;    
+}
+
+.eye1 {
+    background-color: transparent;
+    border-radius: 50% 90%/ 50% 50%;
+    width: 25px;
+    height: 70px;
+    position: absolute;
+    transform: rotate(22deg);
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    left: 33.4%;
+    top: 44%;    
+}
+
+.ear1 {
+    background-color: transparent;
+    border-radius: 50% 50%/ 50% 50%;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    left: 33%;
+    top: 36.3%;    
+}
+
+.ear2 {
+    background-color: transparent;
+    border-radius: 50% 50%/ 50% 50%;
+    width: 81px;
+    height: 70px;
+    position: absolute;
+    transform: rotate(42deg);
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    left: 44.5%;
+    top: 36.9%;    
+}
+
+.ear2_section1 {
+    background-color: transparent;
+    border-radius: 50% 50%/ 50% 50%;
+    width: 35px;
+    height: 43px;
+    position: absolute;
+    transform: rotate(120deg);
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    left: 47%;
+    top: 41%;    
+}
+
+.ear2_section2 {
+    background-color: transparent;
+    border-radius: 50% 50%/ 50% 50%;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    transform: rotate(120deg);
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    left: 47%;
+    top: 41%;    
+}
+
+.eye1_iris {
+    background-color: black;
+    border-radius: 50% 50%/ 50% 50%;
+    width: 5px;
+    height: 6px;
+    position: absolute;
+    transform: rotate(25deg);
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    left: 34%;
+    top: 47%; 
+}
+
+.eye2_iris {
+    background-color: black;
+    border-radius: 50% 50%/ 50% 50%;
+    width: 5px;
+    height: 6px;
+    position: absolute;
+    transform: rotate(25deg);
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    left: 43.3%;
+    top: 48.3%; 
+}
+
+.foot1 {
+    background-color: transparent;
+    border-radius: 60% 54%/ 50% 50%;
+    width: 37px;
+    height: 21px;
+    position: absolute;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    left: 35.2%;
+    top: 72%;    
+}
+
+.foot2 {
+    background-color: transparent;
+    border-radius: 60% 54%/ 50% 50%;
+    width: 38px;
+    height: 20px;
+    position: absolute;
+    transform: rotate(-17deg);
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    left: 39%;
+    top: 73.4%;    
+}
+
+.basefoot1 {
+    background-color:transparent;
+    border-radius: 100% 70% 70% 97% / 85% 95% 76% 98% ;
+    width: 105px;
+    height: 120px;
+    position: absolute;
+    transform: rotate(90deg);
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    left: 30.8%;
+    top: 58%;    
+}
+
+.basefoot1_1 {
+    background-color:transparent;
+    border-radius: 100% 70% 70% 97% / 85% 95% 76% 98% ;
+    width: 10px;
+    height: 20px;
+    position: absolute;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    left: 37.3%;
+    top: 70%;  
+}
+
+.basefoot2 {
+    background-color:transparent;
+    border-radius: 89% 10% 100% 0% / 100% 30% 76% 0%  ;
+    width: 65px;
+    height: 120px;
+    position: absolute;
+    transform: rotate(225deg);
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    left: 42%;
+    top: 62%;    
+}
+
+.basefoot2_1 {
+    background-color:transparent;
+    border-radius: 89% 10% 100% 10% / 100% 30% 76% 0%  ;
+    width: 57px;
+    height: 100px;
+    position: absolute;
+    transform: rotate(253deg);
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    left: 42%;
+    top: 67%;    
+}
+
+.mouth1 {
+    background-color:transparent;
+    border-radius: 75% 19% 68% 32% / 68% 17% 77% 30%;
+    width: 60px;
+    height: 107px;
+    position: absolute;
+    transform: rotate(48deg);
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    left: 33.2%;
+    top: 46.4%;    
+}
+
+.mouth2 {
+    background-color:transparent;
+    border-radius: 72% 30% 85% 46% / 51% 25% 80% 17% ;
+    width: 20px;
+    height: 135px;
+    position: absolute;
+    transform: rotate(116deg);
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    left: 41.4%;
+    top: 44.5%;    
+}
+
+.mouth3 {
+    background-color:transparent;
+    border-radius: 0% 100% 100% 0% / 51% 56% 52% 17% ;
+    width: 30px;
+    height: 120px;
+    position: absolute;
+    transform: rotate(90deg);
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    left: 40%;
+    top: 50.5%;    
+}
+
+.mouth4 {
+    background-color:transparent;
+    border-radius: 50% / 50% ;
+    width: 45px;
+    height: 100px;
+    position: absolute;
+    transform: rotate(102deg);
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    left: 38%;
+    top: 49%;    
+}
+
+.mouth5 {
+    background-color:transparent;
+    clip-path: polygon(100% 100%, 0 100%, 100% 25%);
+    width: 30px;
+    height: 32px;
+    position: absolute;
+    transform: rotate( 235deg);
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    left: 35%;
+    top: 57.5%;    
+}

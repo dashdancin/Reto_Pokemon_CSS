@@ -4,14 +4,14 @@
 }
 
 body { 
-    background: url(slowpoke_AG_anime.png);
+    /* background: url(slowpoke_AG_anime.png); */
     background-repeat: no-repeat;
     background-position: center 100px;
     background-size: 40%;
 }
 
 .base {
-    background-color: transparent;
+    background-color:#eb8b8a;
     border-radius: 50% 50% / 50% 50%;
     width: 355px;
     height: 315px;
@@ -19,13 +19,28 @@ body {
     border-style: solid;
     border-color: black;
     border-width: 1px;
-    
+    /* border-top: 5px solid red;
+    border-right: 5px solid red ; */
     left: 40%;
     top: 39%;
 }
 
+.floor {
+    background-color: rgb(255, 255, 255);
+    border-radius: 43% 50% / 50% 50%;
+    width: 200px;
+    height: 80px;
+    position: absolute;
+    border-style: solid;
+    border-color: transparent;
+    border-top-color: black;
+    border-width: 1px;
+    left: 46.9%;
+    top: 74%
+}
+
 .head {
-    background-color: transparent;
+    background-color:#eb8b8a;
     border-radius: 70% 68% 70% 65% / 50% 60% 50% 65%;
     width: 230px;
     height: 270px;
@@ -38,7 +53,7 @@ body {
 }
 
 .tail {
-    background-color: transparent;
+    background-color:#eb8b8a;
     border-radius: 60% 55%/ 55% 55%;
     width: 390px;
     height: 390px;
@@ -48,10 +63,11 @@ body {
     border-width: 1px;
     left: 38.5%;
     top: 14%;    
+    z-index: -2;
 }
 
 .taildown {
-    background-color: transparent;
+    background-color: white;
     border-radius: 60% 45%/ 55% 55%;
     width: 355px;
     height: 330px;
@@ -60,11 +76,12 @@ body {
     border-color: black;
     border-width: 1px;
     left: 35%;
-    top: 20%;    
+    top: 20%; 
+    z-index: -1;   
 }
 
 .eye2 {
-    background-color: transparent;
+    background-color: white;
     border-radius: 50%/ 50%;
     width: 70px;
     height: 66px;
@@ -77,7 +94,7 @@ body {
 }
 
 .eye1 {
-    background-color: transparent;
+    background-color: white;
     border-radius: 50% 90%/ 50% 50%;
     width: 25px;
     height: 70px;
@@ -91,7 +108,7 @@ body {
 }
 
 .ear1 {
-    background-color: transparent;
+    background-color:#eb8b8a;
     border-radius: 50% 50%/ 50% 50%;
     width: 70px;
     height: 70px;
@@ -100,11 +117,12 @@ body {
     border-color: black;
     border-width: 1px;
     left: 33%;
-    top: 36.3%;    
+    top: 36.3%;
+    z-index: -1;    
 }
 
 .ear2 {
-    background-color: transparent;
+    background-color:#eb8b8a;
     border-radius: 50% 50%/ 50% 50%;
     width: 81px;
     height: 70px;
@@ -174,7 +192,7 @@ body {
 }
 
 .foot1 {
-    background-color: transparent;
+    background-color: white;
     border-radius: 60% 54%/ 50% 50%;
     width: 37px;
     height: 21px;
@@ -182,12 +200,12 @@ body {
     border-style: solid;
     border-color: black;
     border-width: 1px;
-    left: 35.2%;
-    top: 72%;    
+    left: 35%;
+    top: 70%;    
 }
 
 .foot2 {
-    background-color: transparent;
+    background-color: white;
     border-radius: 60% 54%/ 50% 50%;
     width: 38px;
     height: 20px;
@@ -200,8 +218,55 @@ body {
     top: 73.4%;    
 }
 
+.foot3 {
+    background-color:#eb8b8a;
+    width: 61px;
+    height: 82px;
+    position: absolute;
+    transform: rotate(10deg);
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    clip-path: polygon(76% 30%, 100% 41%, 100% 70%, 59% 94%, 0 99%, 19% 57%, 27% 10%);
+    left: 64.35%;
+    top: 64%;    
+    z-index: 1;
+}
+
+.foot3_back {
+    background-color: black;
+    width: 63px;
+    height: 83px;
+    position: absolute;
+    transform: rotate(10deg);
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    clip-path: polygon(76% 30%, 100% 41%, 100% 70%, 59% 94%, 0 99%, 19% 57%, 27% 10%);
+    left: 64.35%;
+    top: 64%;    
+}
+
+.foot3_1 {
+    background-color:#eb8b8a;
+    width: 26px;
+    height: 19px;
+    border-radius: 50% / 50%;
+    position: absolute;
+    transform: rotate(95deg);
+    border-style: solid;
+    border-right-color:#eb8b8a;
+    border-bottom-color:#eb8b8a ;
+    border-left-color:#eb8b8a ;
+    border-top-color: black ;
+    border-width: 1px;
+    left: 67.6%;
+    top: 69.5%;   
+    z-index: 1;
+}
+
 .basefoot1 {
-    background-color:transparent;
+    background-color:#eb8b8a;
     border-radius: 100% 70% 70% 97% / 85% 95% 76% 98% ;
     width: 105px;
     height: 120px;
@@ -211,11 +276,11 @@ body {
     border-color: black;
     border-width: 1px;
     left: 30.8%;
-    top: 58%;    
+    top: 57%;    
 }
 
 .basefoot1_1 {
-    background-color:transparent;
+    background-color:#eb8b8a;
     border-radius: 100% 70% 70% 97% / 85% 95% 76% 98% ;
     width: 10px;
     height: 20px;
@@ -228,7 +293,7 @@ body {
 }
 
 .basefoot2 {
-    background-color:transparent;
+    background-color:#eb8b8a;
     border-radius: 89% 10% 100% 0% / 100% 30% 76% 0%  ;
     width: 65px;
     height: 120px;
@@ -242,7 +307,7 @@ body {
 }
 
 .basefoot2_1 {
-    background-color:transparent;
+    background-color:#eb8b8a;
     border-radius: 89% 10% 100% 10% / 100% 30% 76% 0%  ;
     width: 57px;
     height: 100px;
@@ -256,7 +321,7 @@ body {
 }
 
 .mouth1 {
-    background-color:transparent;
+    background-color: #fff5cf;
     border-radius: 75% 19% 68% 32% / 68% 17% 77% 30%;
     width: 60px;
     height: 107px;
@@ -266,25 +331,28 @@ body {
     border-color: black;
     border-width: 1px;
     left: 33.2%;
-    top: 46.4%;    
+    top: 46.4%;  
 }
 
 .mouth2 {
-    background-color:transparent;
+    background-color: #fff5cf;
     border-radius: 72% 30% 85% 46% / 51% 25% 80% 17% ;
     width: 20px;
     height: 135px;
     position: absolute;
     transform: rotate(116deg);
     border-style: solid;
-    border-color: black;
+    border-right-color: transparent;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
     border-width: 1px;
     left: 41.4%;
     top: 44.5%;    
+    z-index: 2;
 }
 
 .mouth3 {
-    background-color:transparent;
+    background-color: #fff5cf;
     border-radius: 0% 100% 100% 0% / 51% 56% 52% 17% ;
     width: 30px;
     height: 120px;
@@ -293,34 +361,131 @@ body {
     border-style: solid;
     border-color: black;
     border-width: 1px;
+    border-left-color: transparent;
     left: 40%;
-    top: 50.5%;    
+    top: 50.5%; 
+    z-index: 1;   
 }
 
 .mouth4 {
-    background-color:transparent;
+    background-color: #fff5cf;
     border-radius: 50% / 50% ;
     width: 45px;
     height: 100px;
     position: absolute;
     transform: rotate(102deg);
     border-style: solid;
-    border-color: black;
+    border-color: transparent;
     border-width: 1px;
     left: 38%;
     top: 49%;    
+    z-index: 1;
 }
 
 .mouth5 {
-    background-color:transparent;
-    clip-path: polygon(100% 100%, 0 100%, 100% 25%);
-    width: 30px;
-    height: 32px;
+    background-color: #fff5cf;
+    width: 90px;
+    height: 17px;
+    border-radius: 80% 30%/ 80% 30%;
     position: absolute;
-    transform: rotate( 235deg);
+    transform: rotate(18deg);
     border-style: solid;
-    border-color: black;
+    border-bottom-color: black;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
     border-width: 1px;
     left: 35%;
-    top: 57.5%;    
+    top: 58.1%; 
+    z-index: 2;   
+}
+
+.into-mouth {
+    background-color: #fff5cf;
+    border-radius: 72% 30% 85% 46% / 51% 25% 80% 17% ;
+    width: 20px;
+    height: 125px;
+    position: absolute;
+    transform: rotate(114deg);
+    border-style: solid;
+    border-color: transparent;
+    border-width: 1px;
+    left: 40.8%;
+    top: 44.8%;    
+}
+
+.into-mouth2 {
+    background-color: #fff5cf;
+    border-radius: 50% 50% / 50% 50% ;
+    width: 43px;
+    height: 10px;
+    position: absolute;
+    transform: rotate(180deg);
+    border-style: solid;
+    border-color: transparent;
+    border-top-color: black;
+    border-width: 1px;
+    left: 33%;
+    top: 58%; 
+    z-index: 2;
+}
+
+.smile {
+    background-color: #fff5cf;
+    border-radius: 0% 100% 50% 50% / 0% 0% 100% 100% ;
+    width: 170px;
+    height: 90px;
+    position: absolute;
+    border-style: solid;
+    border-top-color: transparent;
+    border-right-color: black;
+    border-width: 1px;
+    left: 34.2%;
+    top: 58%;
+}
+
+.smile2 {
+    background-color: #4E2830;
+    border-radius: 50% 50% 65% 55%/ 20% 10% 90% 90% ;
+    width: 140px;
+    height: 90px;
+    position: absolute;
+    border-style: solid;
+    border-top-color: transparent;
+    border-right-color: black;
+    border-width: 1px;
+    left: 35%;
+    top: 56%;
+}
+
+.smile3 {
+    background-color: #ec7270;
+    border-radius: 25% 75% 60% 40% / 35% 1% 99% 65% ;
+    width: 127px;
+    height: 77px;
+    transform: rotate(5deg);
+    position: absolute;
+    border-style: solid;
+    border-top-color: transparent;
+    border-right-color: black;
+    border-width: 1px;
+    left: 36%;
+    top: 58%;
+    z-index: 1;
+}
+
+.smile4 {
+    background-color: #fff5cf;
+    border-radius: 75% 25% 75% 25% / 75% 25% 75% 25% ;
+    width: 65px;
+    height: 17px;
+    transform: rotate(301deg);
+    position: absolute;
+    border-style: solid;
+    border-top-color: black;
+    border-color: transparent;
+    border-width: 1px;
+    left: 42.%;
+    top: 61.5%;
+    z-index: 1;
 }

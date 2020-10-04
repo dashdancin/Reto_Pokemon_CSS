@@ -26,17 +26,32 @@ body {
 }
 
 .floor {
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     border-radius: 43% 50% / 50% 50%;
-    width: 200px;
-    height: 80px;
+    width: 250px;
+    height: 97px;
     position: absolute;
     border-style: solid;
     border-color: transparent;
     border-top-color: black;
     border-width: 1px;
-    left: 46.9%;
-    top: 74%
+    left: 46.3%;
+    top: 73.7%
+}
+
+.floor2 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 43% 50% / 50% 50%;
+    width: 190px;
+    height: 130px;
+    position: absolute;
+    border-style: solid;
+    border-color: transparent;
+    border-top-color: black;
+    border-width: 1px;
+    left: 34.8%;
+    top: 70%;
+    z-index: 1;
 }
 
 .head {
@@ -46,7 +61,7 @@ body {
     height: 270px;
     position: absolute;
     border-style: solid;
-    border-color: black;
+    border-top-color: black;
     border-width: 1px;
     left: 33%;
     top: 38%;
@@ -202,20 +217,22 @@ body {
     border-width: 1px;
     left: 35%;
     top: 70%;    
+    z-index: 1;
 }
 
 .foot2 {
     background-color: white;
-    border-radius: 60% 54%/ 50% 50%;
-    width: 38px;
+    border-radius: 65% 35% 85% 15% / 85% 35% 65% 15%;
+    width: 35px;
     height: 20px;
     position: absolute;
-    transform: rotate(-17deg);
+    transform: rotate(0deg);
     border-style: solid;
     border-color: black;
     border-width: 1px;
-    left: 39%;
-    top: 73.4%;    
+    left: 40%;
+    top: 73.5%; 
+    z-index: 2;   
 }
 
 .foot3 {
@@ -269,55 +286,48 @@ body {
     background-color:#eb8b8a;
     border-radius: 100% 70% 70% 97% / 85% 95% 76% 98% ;
     width: 105px;
-    height: 120px;
+    height: 100px;
     position: absolute;
-    transform: rotate(90deg);
+    transform: rotate(170deg);
     border-style: solid;
     border-color: black;
     border-width: 1px;
     left: 30.8%;
-    top: 57%;    
-}
-
-.basefoot1_1 {
-    background-color:#eb8b8a;
-    border-radius: 100% 70% 70% 97% / 85% 95% 76% 98% ;
-    width: 10px;
-    height: 20px;
-    position: absolute;
-    border-style: solid;
-    border-color: black;
-    border-width: 1px;
-    left: 37.3%;
-    top: 70%;  
+    top: 59.5%;    
+    z-index: 1;
 }
 
 .basefoot2 {
-    background-color:#eb8b8a;
-    border-radius: 89% 10% 100% 0% / 100% 30% 76% 0%  ;
-    width: 65px;
-    height: 120px;
+    background-color: #eb8b8a;
+    border-radius: 55% 55% 75% 25% / 55% 50% 50% 5%  ;
+    width: 48px;
+    height: 130px;
     position: absolute;
-    transform: rotate(225deg);
+    transform: rotate(245deg);
     border-style: solid;
     border-color: black;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
     border-width: 1px;
-    left: 42%;
+    left: 43%;
     top: 62%;    
+    z-index: 2;
 }
 
 .basefoot2_1 {
-    background-color:#eb8b8a;
+    background-color: #eb8b8a;
     border-radius: 89% 10% 100% 10% / 100% 30% 76% 0%  ;
-    width: 57px;
+    width: 40px;
     height: 100px;
     position: absolute;
-    transform: rotate(253deg);
+    transform: rotate(258deg);
     border-style: solid;
     border-color: black;
+    border-bottom-color: transparent ;
     border-width: 1px;
-    left: 42%;
-    top: 67%;    
+    left: 42.8%;
+    top: 67.5%;   
+    z-index: 1; 
 }
 
 .mouth1 {
@@ -370,15 +380,15 @@ body {
 .mouth4 {
     background-color: #fff5cf;
     border-radius: 50% / 50% ;
-    width: 45px;
-    height: 100px;
+    width: 50px;
+    height: 140px;
     position: absolute;
-    transform: rotate(102deg);
+    transform: rotate(90deg);
     border-style: solid;
     border-color: transparent;
     border-width: 1px;
-    left: 38%;
-    top: 49%;    
+    left: 37%;
+    top: 45.3%;    
     z-index: 1;
 }
 
@@ -442,6 +452,7 @@ body {
     border-width: 1px;
     left: 34.2%;
     top: 58%;
+    z-index: 1;
 }
 
 .smile2 {
@@ -456,6 +467,7 @@ body {
     border-width: 1px;
     left: 35%;
     top: 56%;
+    z-index: 1;
 }
 
 .smile3 {
@@ -476,7 +488,7 @@ body {
 
 .smile4 {
     background-color: #fff5cf;
-    border-radius: 75% 25% 75% 25% / 75% 25% 75% 25% ;
+    border-radius: 75% 25% 75% 25% / 75% 25% 75% 25%;
     width: 65px;
     height: 17px;
     transform: rotate(301deg);
@@ -487,5 +499,21 @@ body {
     border-width: 1px;
     left: 42.%;
     top: 61.5%;
-    z-index: 1;
+    z-index: 2;
+}
+
+.tail-top {
+    background-color: white;
+    border-radius: 75% 25% 75% 25% / 75% 25% 75% 25%;
+    width: 27px;
+    height: 133px;
+    transform: rotate(39deg);
+    position: absolute;
+    border-style: solid;
+    border-top-color: black;
+    border-color: transparent;
+    border-width: 1px;
+    left: 38%;
+    top: 19.7%;
+    z-index: 2;
 }

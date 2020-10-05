@@ -212,7 +212,6 @@ body {
     left: 35%;
     top: 40%;
     z-index: 3;
-
 }
 
 .ear2_section1 {
@@ -290,17 +289,18 @@ body {
 
 .foot2 {
     background-color: rgb(222, 222, 222);
-    border-radius: 65% 35% 85% 15% / 85% 35% 65% 15%;
+    /* border-radius: 65% 35% 85% 15% / 85% 35% 65% 15%; */
+    border-radius: 60% 54%/ 50% 50%;
     width: 35px;
     height: 20px;
     position: absolute;
-    transform: rotate(0deg);
+    transform: rotate(-20deg);
     border-style: solid;
     border-color: black;
     border-width: 1px;
-    left: 40%;
-    top: 73.5%; 
-    z-index: 2;   
+    left: 39.7%;
+    top: 72.9%; 
+    z-index: 3;   
 }
 
 .foot3 {
@@ -318,6 +318,7 @@ body {
     top: 69%; 
     z-index: 1;   
 }
+
 .basefoot3 {
     background-color:#eb8b8a;
     width: 61px;
@@ -369,7 +370,7 @@ body {
 .basefoot1 {
     background-color:#eb8b8a;
     border-radius: 45% 55% 30% 70% / 57% 80% 20% 43% ;
-    width: 115px;
+    width: 110px;
     height: 125px;
     position: absolute;
     transform: rotateX(30deg);
@@ -384,8 +385,8 @@ body {
 .basefoot2 {
     background-color: #eb8b8a;
     border-radius: 55% 55% 75% 25% / 55% 50% 50% 5%  ;
-    width: 48px;
-    height: 130px;
+    width: 60px;
+    height: 138px;
     position: absolute;
     transform: rotate(245deg);
     border-style: solid;
@@ -394,8 +395,8 @@ body {
     border-bottom-color: transparent;
     border-width: 1px;
     left: 43%;
-    top: 62%;    
-    z-index: 2;
+    top: 61%;    
+    z-index: 3;
 }
 
 .basefoot2_1 {

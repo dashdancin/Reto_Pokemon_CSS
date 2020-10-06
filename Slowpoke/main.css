@@ -3,15 +3,28 @@
     margin: 0;
 }
 
-body { 
-    /* background: url(slowpoke_AG_anime.png); */
-    background-repeat: no-repeat;
-    background-position: center 100px;
-    background-size: 40%;
+:root{
+    --color_body: #eb8b8a;
+    --color_background: #fff;
+    --color_mouth: #FFF2AF;
+    --color_foot:#ddd;
 }
 
+body { 
+    background-repeat: no-repeat;
+    background-position: center 100px;
+}
+
+.main {
+    height: 400px;
+    width: 380px;
+    border: 1px solid #111;
+    padding: 10px;
+    margin: 0 auto;
+    transform:scale(.8)
+}
 .base {
-    background-color:#eb8b8a;
+    background-color: var(--color_body);
     border-radius: 50% 50% / 50% 50%;
     width: 355px;
     height: 315px;
@@ -19,14 +32,12 @@ body {
     border-style: solid;
     border-color: black;
     border-width: 1px;
-    /* border-top: 5px solid red;
-    border-right: 5px solid red ; */
     left: 40%;
     top: 39%;
 }
 
 .body-intro {
-    background-color:#eb8b8a;
+    background-color: var(--color_body);
     border-radius: 50% 50% / 50% 50%;
     width: 170px;
     height: 96px;
@@ -41,7 +52,7 @@ body {
 }
 
 .body-intro2 {
-    background-color:#eb8b8a;
+    background-color: var(--color_body);
     border-radius: 45% 55% 70% 30% / 90% 90% 10% 10% ;
     width: 150px;
     height: 180px;
@@ -56,7 +67,7 @@ body {
 }
 
 .body-intro3 {
-    background-color: #eb8b8a;
+    background-color:  var(--color_body);
     width: 30px;
     height: 30px;
     position: absolute;
@@ -66,7 +77,7 @@ body {
 }
 
 .floor {
-    background-color: rgb(255, 255, 255);
+    background-color: var(--color_background);
     border-radius: 43% 50% / 50% 50%;
     width: 250px;
     height: 90px;
@@ -81,7 +92,7 @@ body {
 }
 
 .floor2 {
-    background-color: rgb(251, 251, 251);
+    background-color: var(--color_background);
     border-radius: 43% 50% / 50% 50%;
     width: 205px;
     height: 90px;
@@ -95,7 +106,7 @@ body {
 }
 
 .head {
-    background-color:#eb8b8a;
+    background-color: var(--color_body);
     border-radius: 70% 68% 70% 65% / 50% 60% 50% 65%;
     width: 230px;
     height: 270px;
@@ -108,7 +119,7 @@ body {
 }
 
 .tail {
-    background-color:#eb8b8a;
+    background-color: var(--color_body);
     border-radius: 60% 55%/ 55% 55%;
     width: 390px;
     height: 390px;
@@ -122,7 +133,7 @@ body {
 }
 
 .taildown {
-    background-color: white;
+    background-color: var(--color_background);
     border-radius: 60% 45%/ 55% 55%;
     width: 355px;
     height: 330px;
@@ -136,7 +147,7 @@ body {
 }
 
 .tail-into {
-    background-color: rgba(222, 222, 222, 0.866);
+    background-color: var(--color_foot);
     width: 120px;
     height: 77px;
     clip-path: polygon(98% 16%, 100% 30%, 100% 52%, 90% 51%, 61% 55%, 35% 64%, 0 86%, 25% 50%, 60% 17%, 93% 0);
@@ -149,7 +160,7 @@ body {
 
 
 .eye2 {
-    background-color: white;
+    background-color: var(--color_background);
     border-radius: 50%/ 50%;
     width: 70px;
     height: 66px;
@@ -162,7 +173,7 @@ body {
 }
 
 .eye1 {
-    background-color: white;
+    background-color: var(--color_background);
     border-radius: 50% 90%/ 50% 50%;
     width: 27px;
     height: 70px;
@@ -176,7 +187,7 @@ body {
 }
 
 .ear1 {
-    background-color:#eb8b8a;
+    background-color: var(--color_body);
     border-radius: 50% 50%/ 50% 50%;
     width: 70px;
     height: 70px;
@@ -190,7 +201,7 @@ body {
 }
 
 .ear2 {
-    background-color:#eb8b8a;
+    background-color: var(--color_body);
     border-radius: 50% 50%/ 50% 50%;
     width: 81px;
     height: 70px;
@@ -205,7 +216,7 @@ body {
 }
 
 .ear1-section1{
-    background-color: #eb8b8a;
+    background-color:  var(--color_body);
     width: 25px;
     height: 25px;
     position: absolute;
@@ -274,7 +285,7 @@ body {
 }
 
 .foot1 {
-    background-color: rgb(222, 222, 222);
+    background-color: var(--color_foot);
     border-radius: 60% 54%/ 50% 50%;
     width: 35px;
     height: 20px;
@@ -288,7 +299,7 @@ body {
 }
 
 .foot2 {
-    background-color: rgb(222, 222, 222);
+    background-color: var(--color_foot);
     /* border-radius: 65% 35% 85% 15% / 85% 35% 65% 15%; */
     border-radius: 60% 54%/ 50% 50%;
     width: 35px;
@@ -304,7 +315,7 @@ body {
 }
 
 .foot3 {
-    background-color: rgb(222, 222, 222);
+    background-color: var(--color_foot);
     border-radius: 65% 35% 85% 15% / 85% 35% 65% 15%;
     width: 35px;
     height: 30px;
@@ -320,7 +331,7 @@ body {
 }
 
 .basefoot3 {
-    background-color:#eb8b8a;
+    background-color: var(--color_body);
     width: 61px;
     height: 82px;
     position: absolute;
@@ -350,16 +361,16 @@ body {
 
 
 .foot3_1 {
-    background-color:#eb8b8a;
+    background-color: var(--color_body);
     width: 26px;
     height: 19px;
     border-radius: 50% / 50%;
     position: absolute;
     transform: rotate(95deg);
     border-style: solid;
-    border-right-color:#eb8b8a;
-    border-bottom-color:#eb8b8a ;
-    border-left-color:#eb8b8a ;
+    border-right-color: var(--color_body);
+    border-bottom-color: var(--color_body) ;
+    border-left-color: var(--color_body) ;
     border-top-color: black ;
     border-width: 1px;
     left: 67.6%;
@@ -368,7 +379,7 @@ body {
 }
 
 .basefoot1 {
-    background-color:#eb8b8a;
+    background-color: var(--color_body);
     border-radius: 45% 55% 30% 70% / 57% 80% 20% 43% ;
     width: 110px;
     height: 125px;
@@ -383,7 +394,7 @@ body {
 }
 
 .basefoot2 {
-    background-color: #eb8b8a;
+    background-color:  var(--color_body);
     border-radius: 55% 55% 75% 25% / 55% 50% 50% 5%  ;
     width: 60px;
     height: 138px;
@@ -400,7 +411,7 @@ body {
 }
 
 .basefoot2_1 {
-    background-color: #eb8b8a;
+    background-color:  var(--color_body);
     border-radius: 89% 10% 100% 10% / 100% 30% 76% 0%  ;
     width: 40px;
     height: 100px;
@@ -416,7 +427,7 @@ body {
 }
 
 .mouth1 {
-    background-color: #FFF2AF;
+    background-color: var(--color_mouth);
     border-radius: 75% 19% 68% 32% / 68% 17% 77% 30%;
     width: 60px;
     height: 107px;
@@ -430,7 +441,7 @@ body {
 }
 
 .mouth2 {
-    background-color: #FFF2AF;
+    background-color: var(--color_mouth);
     border-radius: 72% 30% 85% 46% / 51% 25% 80% 17% ;
     width: 20px;
     height: 135px;
@@ -447,7 +458,7 @@ body {
 }
 
 .mouth3 {
-    background-color: #FFF2AF;
+    background-color: var(--color_mouth);
     border-radius: 0% 100% 100% 0% / 51% 56% 52% 17% ;
     width: 30px;
     height: 120px;
@@ -463,7 +474,7 @@ body {
 }
 
 .mouth4 {
-    background-color: #FFF2AF;
+    background-color: var(--color_mouth);
     border-radius: 50% / 50% ;
     width: 50px;
     height: 140px;
@@ -478,7 +489,7 @@ body {
 }
 
 .mouth5 {
-    background-color: #FFF2AF;
+    background-color: var(--color_mouth);
     width: 90px;
     height: 17px;
     border-radius: 80% 30%/ 80% 30%;
@@ -496,7 +507,7 @@ body {
 }
 
 .into-mouth {
-    background-color: #FFF2AF;
+    background-color: var(--color_mouth);
     border-radius: 72% 30% 85% 46% / 51% 25% 80% 17% ;
     width: 20px;
     height: 125px;
@@ -510,7 +521,7 @@ body {
 }
 
 .into-mouth2 {
-    background-color: #FFF2AF;
+    background-color: var(--color_mouth);
     border-radius: 50% 50% / 50% 50% ;
     width: 43px;
     height: 10px;
@@ -526,7 +537,7 @@ body {
 }
 
 .smile {
-    background-color: #FFF2AF;
+    background-color: var(--color_mouth);
     border-radius: 0% 100% 50% 50% / 0% 0% 100% 100% ;
     width: 170px;
     height: 90px;
@@ -572,7 +583,7 @@ body {
 }
 
 .smile4 {
-    background-color:#FFF2AF;
+    background-color:var(--color_mouth);
     width: 68px;
     height: 13px;
     transform: rotate(298deg);
@@ -587,7 +598,7 @@ body {
 }
 
 .smile5 {
-    background-color: #FFF2AF;
+    background-color: var(--color_mouth);
     width: 12px;
     height: 39px;
     transform: rotate(53deg); 
@@ -602,7 +613,7 @@ body {
 }  
 
 .tail-top {
-    background-color: white;
+    background-color: var(--color_background);
     border-radius: 75% 25% 75% 25% / 75% 25% 75% 25%;
     width: 27px;
     height: 133px;
@@ -633,23 +644,23 @@ body {
 }
 
 .noise2 {
-        background-color: transparent; 
-        width: 8px;
-        height: 8px;
-        transform: rotate(40deg);
-        position: absolute;
-        border-style: solid;
-        border-color: transparent;
-        border-right-color: black;
-        border-width: 1px;
-        left: 37%;
-        top: 56.2%;
-        z-index: 2;
+    background-color: transparent; 
+    width: 8px;
+    height: 8px;
+    transform: rotate(40deg);
+    position: absolute;
+    border-style: solid;
+    border-color: transparent;
+    border-right-color: black;
+    border-width: 1px;
+    left: 37%;
+    top: 56.2%;
+    z-index: 2;
 }
 
 
 .tusk {
-    background-color:white;
+    background-color: var(--color_background);
     border-radius: 90% 10% 10% 90% / 100% 0% 100% 0%;  
     width: 12px;
     height: 20px;
@@ -664,7 +675,7 @@ body {
 }
 
 .tusk2 {
-    background-color:white;
+    background-color: var(--color_background);
     border-radius: 50% 50% 50% 50% / 100% 0% 100% 0%;  
     width: 16px;
     height: 18px;
@@ -677,3 +688,5 @@ body {
     top: 59.7%;
     z-index: 1;
 }
+
+
